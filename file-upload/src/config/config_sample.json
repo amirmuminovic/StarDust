@@ -1,0 +1,5 @@
+{
+  "CLIENT_EMAIL": "sample_client_email",
+  "PRIVATE_KEY": "sample_private_key",
+  "PORT": 3000
+}
