@@ -1,5 +1,4 @@
-# StarDust - Astrophotography Central
-## [IN DEVELOPMENT]
+# StarDust - Astrophotography Central [IN DEVELOPMENT]
 
 ## Idea
 StarDust is THE platform for astrophotographers. 
