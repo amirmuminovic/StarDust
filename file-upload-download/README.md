@@ -14,6 +14,5 @@ Currently the microservice can upload a single file and fetch the file links bas
 * Add api validation with JOI
 * Add OpenAPI specification
 * Enhance Security by adding validation of files that can be received
-* Add transpiling to ES6
 * Add typescript (optional)
 * Test video upload
