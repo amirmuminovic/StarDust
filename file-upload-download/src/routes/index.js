@@ -1,5 +1,5 @@
-const fileRoutes = require('./fileRoutes');
+import fileRoutes from './fileRoutes';
 
-module.exports = {
-  fileRoutes
-}
+export {
+  fileRoutes,
+};

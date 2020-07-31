@@ -1,20 +1,20 @@
-const { Router } = require('express');
-
-const {
-  fileControllers
-} = require('../controllers');
-
-const upload = require('../loaders/multerLoader')
+import {Router as router} from 'express';
+import {fileControllers} from '../controllers';
+import upload from '../loaders/multerLoader';
 
 const {
   uploadFileToBucketController,
   getFilesByUserNameController,
-} = fileControllers
+} = fileControllers;
 
-const fileRoutes = Router();
+const fileRoutes = router();
 
-fileRoutes.post('/bananas', upload.single('file'), uploadFileToBucketController)
+fileRoutes.post(
+  '/bananas',
+  upload.single('file'),
+  uploadFileToBucketController,
+);
 
 fileRoutes.get('/bananas', getFilesByUserNameController);
 
-module.exports = fileRoutes;
+export default fileRoutes;

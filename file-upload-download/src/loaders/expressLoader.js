@@ -1,10 +1,10 @@
-const { json } = require('body-parser')
-const { fileRoutes } = require('../routes');
+import {json} from 'body-parser';
+import {fileRoutes} from '../routes';
 
 const loadExpress = async (app) => {
-  app.use(json())
+  app.use(json());
 
   app.use(fileRoutes);
-}
+};
 
-module.exports = loadExpress;
+export default loadExpress;

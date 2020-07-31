@@ -1,5 +1,5 @@
-const BucketRepo = require('./BucketRepo');
+import BucketRepo from './BucketRepo';
 
-module.exports = {
+export {
   BucketRepo,
-}
+};

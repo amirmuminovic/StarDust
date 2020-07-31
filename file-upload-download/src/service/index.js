@@ -1,5 +1,5 @@
-const fileService = require('./fileService');
+import fileService from './fileService';
 
-module.exports = {
-  fileService
-}
+export {
+  fileService,
+};
