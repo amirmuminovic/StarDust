@@ -15,4 +15,5 @@ Currently the microservice can upload a single file and fetch the file links bas
 * Add OpenAPI specification
 * Enhance Security by adding validation of files that can be received
 * Add typescript (optional)
-* Test video upload
+* Test large file upload
+* Add Dockerfile
